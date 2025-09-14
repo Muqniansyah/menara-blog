@@ -4,13 +4,16 @@ yang done :
 3. cta 
 https://wa.me/6285817298071
 https://menarabekasilestari.site/
-4. buat web
+4. buat web dan responsif beserta alt gambar dan menambah rel="noopener noreferrer" untuk keamanan link
 5. judul web dan meta description dalam tag head
 5. hosting web
 https://github.com/Muqniansyah/menara-blog
 https://muqniansyah.github.io/menara-blog/
 6. google analytics
 7. google search console
+8. uji url sudah aktif
+https://muqniansyah.github.io/menara-blog/
+9. buat file sitemap.xml dan robots.txt
 
 
 
