@@ -1,14 +1,31 @@
 /* 🎨 Palet warna kustom merah-biru */
 .bg-red-light {
-    background-color: #fbeaea; /* merah muda lembut */
+  background-color: #fbeaea; /* merah muda lembut */
 }
 
 .bg-blue {
-    background-color: #1d3557; /* biru tua */
-    color: #fff;
+  background-color: #1d3557; /* biru tua */
+  color: #fff;
 }
 
 .bg-red {
-    background-color: #e63946; /* merah utama */
-    color: #fff;
+  background-color: #e63946; /* merah utama */
+  color: #fff;
+}
+
+/* swiper */
+.hover-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.hover-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+}
+
+.swiper-slide img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 0.5rem;
 }

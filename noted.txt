@@ -16,7 +16,8 @@ https://muqniansyah.github.io/menara-blog/
 9. buat file sitemap.xml dan robots.txt
 10. uji url sudah aktif
 https://muqniansyah.github.io/menara-blog/sitemap.xml
-
+11. json keywoard
+12. membuat swiper atau carousel slide untuk backlink seo
 
 
 

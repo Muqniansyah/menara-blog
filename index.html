@@ -284,6 +284,119 @@
       </div>
     </section>
 
+    <!-- Swiper Backlink Section -->
+    <section class="py-5 bg-light">
+      <div class="container">
+        <!-- Swiper -->
+        <div class="swiper mySwiper">
+          <div class="swiper-wrapper">
+            <!-- Slide 1 -->
+            <div class="swiper-slide">
+              <a
+                href="https://menarabekasilestari.site/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <div
+                  class="card h-100 border-0 shadow-sm rounded-3 text-center p-4 hover-card"
+                >
+                  <img
+                    src="./images/kemas.png"
+                    class="card-img-top rounded mb-3"
+                    alt="Menara Bekasi Lestari"
+                  />
+                  <div class="card-body p-0">
+                    <p class="fw-semibold text-dark mb-0">
+                      Website Resmi PT.Kemas Kayu Indonesia
+                    </p>
+                  </div>
+                </div>
+              </a>
+            </div>
+
+            <!-- Slide 2 -->
+            <div class="swiper-slide">
+              <a
+                href="https://kemaskayuindonesia.my.id/menarabekasi/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <div
+                  class="card h-100 border-0 shadow-sm rounded-3 text-center p-4 hover-card"
+                >
+                  <img
+                    src="./images/menarabekasi.png"
+                    class="card-img-top rounded mb-3"
+                    alt="Kemas Kayu Indonesia Menara"
+                  />
+                  <div class="card-body p-0">
+                    <p class="fw-semibold text-dark mb-0">
+                      Pastikan Pallet Anda Siap Kirim Tanpa Risiko!
+                    </p>
+                  </div>
+                </div>
+              </a>
+            </div>
+
+            <!-- Slide 3 -->
+            <div class="swiper-slide">
+              <a
+                href="https://kemaskayuindonesia.my.id/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <div
+                  class="card h-100 border-0 shadow-sm rounded-3 text-center p-4 hover-card"
+                >
+                  <img
+                    src="./images/kemaskayu.PNG"
+                    class="card-img-top rounded mb-3"
+                    alt="Kemas Kayu Indonesia"
+                  />
+                  <div class="card-body p-0">
+                    <p class="fw-semibold text-dark mb-0">
+                      Ekspor bisa ditolak hanya karena kemasan kayu tidak sesuai
+                      standar ISPM #15!
+                    </p>
+                  </div>
+                </div>
+              </a>
+            </div>
+
+            <!-- Slide 4 -->
+            <div class="swiper-slide">
+              <a
+                href="https://menarabekasi.netlify.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <div
+                  class="card h-100 border-0 shadow-sm rounded-3 text-center p-4 hover-card"
+                >
+                  <img
+                    src="./images/penanganan-kayu.PNG"
+                    class="card-img-top rounded mb-3"
+                    alt="Menara Bekasi Netlify"
+                  />
+                  <div class="card-body p-0">
+                    <p class="fw-semibold text-dark mb-0">
+                      Mengapa Penanganan Kayu Pallet Menjadi Kunci Sukses dalam
+                      Ekspor Barang?
+                    </p>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+
+          <!-- Navigasi -->
+          <div class="swiper-pagination mt-3"></div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+        </div>
+      </div>
+    </section>
+
     <!-- Section Partner -->
     <section class="py-5 bg-light">
       <div class="container">
@@ -380,5 +493,40 @@
 
     <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- SwiperJS CSS & JS (CDN) -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- Swiper Init -->
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        slidesPerView: 1,
+        spaceBetween: 20,
+        loop: true,
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+        breakpoints: {
+          576: {
+            slidesPerView: 2,
+          },
+          768: {
+            slidesPerView: 3,
+          },
+          1200: {
+            slidesPerView: 4,
+          },
+        },
+      });
+    </script>
   </body>
 </html>
