@@ -14,6 +14,8 @@ https://muqniansyah.github.io/menara-blog/
 8. uji url sudah aktif
 https://muqniansyah.github.io/menara-blog/
 9. buat file sitemap.xml dan robots.txt
+10. uji url sudah aktif
+https://muqniansyah.github.io/menara-blog/sitemap.xml
 
 
 
