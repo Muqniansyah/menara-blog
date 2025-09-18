@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://muqniansyah.github.io/menara-blog/sitemap_index.xml
+Sitemap: https://muqniansyah.github.io/menara-blog/sitemap.xml
