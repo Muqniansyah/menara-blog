@@ -1,29 +1,23 @@
 yang done :
 1. add akun google
-2. kompres gambar
-3. cta 
+2. kompres gambar beserta alt gambar                                        (seo onpage)
+3. cta                                                                      (seo onpage)
 https://wa.me/6285817298071
 https://menarabekasilestari.site/
-4. buat web dan responsif beserta alt gambar dan menambah rel="noopener noreferrer" untuk keamanan link
-5. judul web dan meta description dalam tag head
-5. hosting web
+4. buat web 
+5. web responsif dan menambah rel="noopener noreferrer" untuk keamanan link (seo teknis)
+6. judul web dan meta description dalam tag head                            (seo onpage)
+7. hosting web                                                              (seo teknis)
 https://github.com/Muqniansyah/menara-blog
 https://muqniansyah.github.io/menara-blog/
-6. google analytics
-7. google search console
-8. uji url sudah aktif
-https://muqniansyah.github.io/menara-blog/
-9. buat file sitemap.xml dan robots.txt
+8. google analytics
+9. google search console
 10. uji url sudah aktif
+https://muqniansyah.github.io/menara-blog/
+11. buat file sitemap.xml dan robots.txt                                    (seo teknis)
+12. uji url sudah aktif
 https://muqniansyah.github.io/menara-blog/sitemap.xml
-11. json keywoard
-12. membuat swiper atau carousel slide untuk backlink seo
-
-
-
-
-
-
-
-#opsional
-github action?
+13. json keywoard                                                           (seo teknis)
+14. membuat swiper atau carousel slide untuk backlink seo                   (seo offpage)
+15. github action atau ci cd otomatis dari github.
+16. buat bridging agar konten tetap nyambung.
