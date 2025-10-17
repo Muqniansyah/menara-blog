@@ -88,6 +88,39 @@
         "dateModified": "2025-09-10"
       }
     </script>
+    <!-- JSON-LD untuk FAQ -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Apa itu standar ISPM 15 dan kenapa wajib untuk ekspor?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "ISPM 15 adalah standar internasional untuk perlakuan kayu kemasan ekspor agar bebas hama dan penyakit. Pallet yang belum disertifikasi bisa menyebabkan barang ditolak di pelabuhan negara tujuan."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Kayu apa saja yang umum digunakan untuk pallet ekspor?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Jenis kayu yang sering dipakai meliputi pine, mahoni, meranti, dan jati. Pemilihannya tergantung kebutuhan, berat barang, dan regulasi negara tujuan ekspor."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Apakah Menara Bekasi menyediakan sertifikasi ISPM 15?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Ya, PT. Menara Bekasi menyediakan layanan sertifikasi ISPM 15 resmi untuk semua jenis pallet. Kami memastikan semua produk siap ekspor dan memenuhi semua standar karantina internasional."
+            }
+          }
+        ]
+      }
+    </script>
   </head>
   <body>
     <!-- Header / Hero Section -->
@@ -453,6 +486,160 @@
               </p>
             </div>
           </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="py-5 bg-white">
+      <div class="container">
+        <div class="row justify-content-center text-center mb-4">
+          <div class="col-lg-8">
+            <h2 class="fw-bold text-primary mb-3">
+              ❓ Pertanyaan Umum Seputar Kayu Ekspor dan ISPM 15
+            </h2>
+            <p class="text-secondary fs-5">
+              Masih bingung soal pemilihan kayu dan standar ISPM 15? Berikut
+              beberapa pertanyaan yang sering diajukan oleh eksportir baru.
+            </p>
+          </div>
+        </div>
+
+        <div class="accordion col-lg-10 mx-auto" id="faqAccordion">
+          <!-- FAQ 1 -->
+          <div class="accordion-item border-0 shadow-sm mb-3 rounded-3">
+            <h2 class="accordion-header" id="faq1">
+              <button
+                class="accordion-button fw-semibold"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapse1"
+                aria-expanded="true"
+                aria-controls="collapse1"
+              >
+                Apa itu standar ISPM 15 dan kenapa wajib untuk ekspor?
+              </button>
+            </h2>
+            <div
+              id="collapse1"
+              class="accordion-collapse collapse show"
+              aria-labelledby="faq1"
+              data-bs-parent="#faqAccordion"
+            >
+              <div class="accordion-body text-secondary">
+                ISPM 15 adalah standar internasional untuk perlakuan kayu
+                kemasan ekspor agar bebas hama dan penyakit. Pallet yang belum
+                disertifikasi bisa menyebabkan barang ditolak di pelabuhan
+                negara tujuan.
+              </div>
+            </div>
+          </div>
+
+          <!-- FAQ 2 -->
+          <div class="accordion-item border-0 shadow-sm mb-3 rounded-3">
+            <h2 class="accordion-header" id="faq2">
+              <button
+                class="accordion-button collapsed fw-semibold"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapse2"
+                aria-expanded="false"
+                aria-controls="collapse2"
+              >
+                Kayu apa saja yang umum digunakan untuk pallet ekspor?
+              </button>
+            </h2>
+            <div
+              id="collapse2"
+              class="accordion-collapse collapse"
+              aria-labelledby="faq2"
+              data-bs-parent="#faqAccordion"
+            >
+              <div class="accordion-body text-secondary">
+                Jenis kayu yang sering dipakai meliputi <em>pine</em>,
+                <em>mahoni</em>, <em>meranti</em>, dan <em>jati</em>.
+                Pemilihannya tergantung kebutuhan, berat barang, dan regulasi
+                negara tujuan ekspor.
+              </div>
+            </div>
+          </div>
+
+          <!-- FAQ 3 -->
+          <div class="accordion-item border-0 shadow-sm mb-3 rounded-3">
+            <h2 class="accordion-header" id="faq3">
+              <button
+                class="accordion-button collapsed fw-semibold"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapse3"
+                aria-expanded="false"
+                aria-controls="collapse3"
+              >
+                Apakah Menara Bekasi menyediakan sertifikasi ISPM 15?
+              </button>
+            </h2>
+            <div
+              id="collapse3"
+              class="accordion-collapse collapse"
+              aria-labelledby="faq3"
+              data-bs-parent="#faqAccordion"
+            >
+              <div class="accordion-body text-secondary">
+                Ya, PT. Menara Bekasi menyediakan layanan sertifikasi ISPM 15
+                resmi untuk semua jenis pallet. Kami memastikan semua produk
+                siap ekspor dan memenuhi semua standar karantina internasional.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Share Bar Section -->
+    <section class="py-4 bg-light border-top">
+      <div class="container text-center">
+        <h5 class="fw-bold text-dark mb-3">📤 Bagikan Artikel Ini</h5>
+        <div class="d-flex justify-content-center gap-3 flex-wrap">
+          <a
+            href="https://www.facebook.com/sharer/sharer.php?u=https://muqniansyah.github.io/menara-blog/"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="btn btn-outline-primary rounded-pill px-3"
+          >
+            <i class="bi bi-facebook me-2"></i>Facebook
+          </a>
+          <a
+            href="https://twitter.com/intent/tweet?url=https://muqniansyah.github.io/menara-blog/"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="btn btn-outline-info rounded-pill px-3"
+          >
+            <i class="bi bi-twitter me-2"></i>Twitter
+          </a>
+          <a
+            href="https://www.linkedin.com/sharing/share-offsite/?url=https://muqniansyah.github.io/menara-blog/"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="btn btn-outline-primary rounded-pill px-3"
+          >
+            <i class="bi bi-linkedin me-2"></i>LinkedIn
+          </a>
+          <a
+            href="https://api.whatsapp.com/send?text=Pelajari%20tentang%20pemilihan%20jenis%20kayu%20ekspor%20yang%20tepat!%20https://muqniansyah.github.io/menara-blog/"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="btn btn-outline-success rounded-pill px-3"
+          >
+            <i class="bi bi-whatsapp me-2"></i>WhatsApp
+          </a>
+          <a
+            href="mailto:?subject=Menara Bekasi%20Artikel&body=Lihat artikel ini: https://muqniansyah.github.io/menara-blog/"
+            class="btn btn-outline-danger rounded-pill px-3"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <i class="bi bi-envelope me-2"></i>Email
+          </a>
         </div>
       </div>
     </section>

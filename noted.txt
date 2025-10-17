@@ -21,3 +21,6 @@ https://muqniansyah.github.io/menara-blog/sitemap.xml
 14. membuat swiper atau carousel slide untuk backlink seo                   (seo offpage)
 15. github action atau ci cd otomatis dari github.
 16. buat bridging agar konten tetap nyambung.
+
+update 2.0
+menambahkan faq dan sharing button bar dan juga json key faq.

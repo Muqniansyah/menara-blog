@@ -29,3 +29,25 @@
   object-fit: cover;
   border-radius: 0.5rem;
 }
+
+/* faq dan sharing button bar */
+.accordion-button:not(.collapsed) {
+  color: #198754;
+  background-color: #eaf7ef;
+  box-shadow: none;
+}
+
+.accordion-item {
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.accordion-item:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
+}
+
+.btn-outline-primary:hover,
+.btn-outline-success:hover,
+.btn-outline-info:hover {
+  color: #fff !important;
+}
