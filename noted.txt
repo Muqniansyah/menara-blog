@@ -23,4 +23,4 @@ https://muqniansyah.github.io/menara-blog/sitemap.xml
 16. buat bridging agar konten tetap nyambung.
 
 update 2.0
-menambahkan faq dan sharing button bar dan juga json key faq.
+menambahkan faq, icon logo dan sharing button bar dan juga json key faq.
